@@ -1,0 +1,120 @@
+.card {
+    margin-left: -1px;
+    float: left;
+    width: 250px;
+    height: 650px;
+    position: relative;
+    border: 1px solid #c8c8c8;
+ }
+ 
+ .product,
+ .description {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    backface-visibility: hidden;
+    background-color: #fff;
+    transition: 1s;
+ }
+ 
+ .description {
+    box-sizing: border-box;
+    padding: 2px;
+    transform: rotateY(180deg);
+ }
+ 
+ .description div {
+    font-size: 20px;
+    margin-top: 30%;
+ }
+ 
+ .card:hover .product {
+    transform: rotateY(180deg);
+ }
+ 
+ .card:hover .description {
+    transform: rotateY(360deg);
+ }
+ 
+ .product img {
+    width: 225px;
+    height: 338px;
+ }
+ 
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .actions {
+    color: white;
+    background-color: #ff1100;
+    border-radius: 20px;
+    width: 60px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+ }
+ 
+ .heart img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 15px;
+    padding: 0;
+ }
+ 
+ .comparison img {
+    width: 60px;
+    height: 34px;
+    padding: 0;
+    float: left;
+    margin-left: 175px;
+    margin-top: 10px;
+ }
+ 
+ .smartphoneName {
+    margin: 50px 25px 10px 25px;
+    font-size: 16px;
+    text-align: justify;
+ }
+ 
+ .PriceSmartphoneCrossed {
+    color: #898989;
+    font-size: 16px;
+    width: 70px;
+    margin-left: 25px;
+ }
+ 
+ .priceSmartphone {
+    font-size: 22px;
+    color: red;
+    margin-top: 5px;
+    width: 90px;
+    margin-left: 25px;
+ }
+ 
+ .cart img {
+    width: 45px;
+    height: 30px;
+    float: left;
+    margin: -25px 0px 10px 190px;
+ }
+ 
+ .textReady {
+    color: green;
+    font-size: 14px;
+    text-align: justify;
+    margin: 30px 0px 0px 25px;
+ }
+ 
+ .grCar img {
+    width: 30px;
+    height: 15px;
+    float: right;
+    margin: -14px 30px 0px 0px;
+ }
